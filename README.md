@@ -14,7 +14,8 @@ The system automatically:
  Predicts PM2.5 using two trained XGBoost models
  Separates weather impact vs traffic impact
  Computes final AQI (CPCB India standard)
- Saves the prediction back to PostgreSQL
+ Saves the prediction directly to PostgreSQL
+ 
 Tech Stack:
 Python
 XGBoost
